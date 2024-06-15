@@ -14,7 +14,7 @@ values_list = [21, 'Дмитрий', False]
 # Создаем словарь
 values_dict = {
     "a": 100,
-    "b": "Мир",
+    "b": "для_примера",
     "c": [1, 2, 3]
 }
 
@@ -23,7 +23,7 @@ print_params(*values_list)
 print_params(**values_dict)
 
 # Создаем список с двумя элементами разных типов
-values_list_2 = [5, 'для_примера']
+values_list_2 = [54.32, 'строка']
 
 # Проверяем работу функции
 print_params(*values_list_2, 42)
